@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --f7-theme-color:#007042;
+    --f7-navbar-bg-color:#CF3F41 ; /*navbar*/
+    --f7-navbar-text-color:#fff;
+    --f7-bars-bg-color:#fff;/*toolbar*/
+	--color-verde:#007042;
+	--color-gris: #8f8f8f;
+	--color-negro: #000;
+	--fondo-gris: #eaebeb;
+	--color-blanco:#fff;
+	--color-naranja:#FF6C2F;
+	--color-rojizo:#CF3F41;
+	--color-amarillo:#FECD01;
+	--color-rojo-claro:#BC5152;
+	--fondo-menu:#fafafa;
+	
+}
+
+body {
+	font-family: 'Raleway',sans-serif;
+	color: var(--color-gris);
+	padding-bottom: 70px;
+	
+
+}
+	
+	
+
+h1,h2,h3,h4,h5 {
+	margin-bottom: 5px;
+	margin-top:2px;
+	color: var(--color-blanco);	
+	text-align: center
+	
+}
+
+h1{
+	
+	font-size: 15px;
+}
+
+h2{
+	
+	font-size: 13px;
+}
+
+h3{
+	
+	font-size: 10px;
+}
+
+h4{
+	
+	font-size: 9px;
+}
+
+h5{
+	
+	font-size: 8px;
+}
+
+h6{
+	
+	font-size: 7px;
+}
+
+h7{
+	
+	font-size: 12px;
+}
+
+
+
+.navbar a {
+	color: #fff;
+	
+}
+
+.img-fluid {
+	max-width: 80%;
+	
+}
+
+.intro h2 {
+	font-size: 10px;
+	font-weight: 300;
+	
+}
+
+.intro h2 span {
+	font-weight: 500;
+	
+}
+
+.intro h3 {
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+
+.block-title {
+	font-size: 17px;
+	color: var(--color-naranja);
+	font-weight: 500;
+	overflow: initial;
+	
+}
+
+
+
+.card-intro {
+	background-color: var(--color-rojizo);
+	color: #fff;
+	box-shadow: none;
+	border-radius: 20px;
+	
+}
+
+.card-intro h5 {
+	color: #fff;
+	
+}
+
+.card-intro span .material-icons {
+	margin-right: 5px;
+	font-size: 10px;
+	
+}
+
+
+.card-intro h4 {
+	font-weight: 300;
+	color: var(--color-blanco);
+	
+}
+
+.card-intro h3 {
+	color: var(--color-blanco);
+	margin-bottom: 40px;
+	font-size: 15px;	
+	
+	}
+
+.card-intro .precio {
+	border-radius: 5px;
+	padding: 10px;
+	background-color: var(--color-negro);
+	
+}
+		
+.card-popular .card-content {
+	background-color: var(--fondo-gris);
+	text-align: center;
+	overflow: initial;
+	color: var(--color-negro);
+	
+}
+
+.card-intro img {
+	width: 120px;
+	
+}
+.card-popular .card-content {
+	background-color: var(--fondo-naranja);
+	color: var(--color-negro);
+	
+}
+
+.card-popular .card-footer a {
+	color: var(--color-blanco);	
+	
+}
+
+.card-popular h3 {
+	font-size: 15px;
+	font-weight: 400;
+	
+}
+
+.card-popular h4 {
+	font-size: 10px;
+	font-weight: 300;
+	
+}
+
+.toolbar-bottom a,
+.toolbar-bottom i {
+	color: var(--color-naranja);
+	
+	
+}
+
+.card-popular .card-footer {
+	background-color: var(--color-naranja);
+	color: var(--color-blanco);
+	
+}
+
+.page-content {
+	background-color: var(--color-negro);
+	
+}
+
+.card-content img {
+	width: 120px;
+	
+}
+
+.card-popular h3, h4 {
+	color: var(--color-negro);
+	
+}
+
+.card-intro-entrenamientos {
+	color: #fff;
+	box-shadow: none;
+	border-radius: 20px;
+	
+}
+
+.card-intro-entrenamientos h5 {
+	color: #fff;
+	
+}
+
+.card-intro-entrenamientos span .material-icons {
+	margin-right: 5px;
+	font-size: 10px;
+	
+}
+
+.card-intro-entrenamientos h4 {
+	font-weight: 300;
+	color: var(--color-blanco);
+	
+}
+
+.card-intro-entrenamientos h3 {
+	color: var(--color-blanco);
+	margin-bottom: 40px;
+	font-size: 16px;
+	
+	}
+
+.card-intro-entrenamientos .precio {
+	border-radius: 5px;
+	padding: 10px;
+	background-color: var(--color-negro);
+	
+}
+	
+
+.card-training {
+	color: var(--color-negro);
+	
+}
+
+.card-training h5,
+.card-training h3 {
+	color: var(--color-negro);
+	font-weight: 800;
+	margin-bottom: 40px;
+	font-size: 15px;
+	
+}
+
+.card-training .precio {
+	border-radius: 5px;
+	padding: 7px;
+	background-color: var(--color-negro);
+	color: var(--color-blanco);
+	
+}
+
+.trainer {
+	background-color: var(--color-rojizo);
+	border-radius: 25%;
+	
+}
+
+.trainer-2 {
+	background-color: var(--color-amarillo);
+	border-radius: 25%;
+	
+}
+
+.panel-top{
+	background-color: var(--color-naranja);
+	padding: 17px;
+	text-align: center;
+	color: var(--color-blanco);
+	
+}
+
+.panel-left{
+	background-color: var(--fondo-menu);
+	text-align: center;
+	
+}
+
+.list-menu ul{
+	background-color: var(--fondo-menu);
+	
+}
+
+.list-menu i{
+	color: var(--color-naranja);
+	
+}
+
+.list-menu{
+	margin-top: 0;
+	text-align: center;
+	
+}
+
+.list-productos .item-media img{
+	width: 80px;
+	
+}
+
+.list-productos .item-title{
+	color: var(--color-negro);
+	font-size: 13px;
+	font-weight: 300;
+	
+}
+
+.list-productos .item-subtitle{
+	color: var(--color-negro);
+	font-size: 22px;
+	font-weight: 400;
+	
+}
+
+.list-productos li{
+	box-shadow: 0px 0px 10px 5px #f2f2f2;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+
+.tabbar-labels .tab-link-highlight{
+	display: none !important;
+}
+
+.card.top{
+	background-color: var(--color-rojo-claro);
+	color: #fff;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+.card.top h5{
+	font-weight: 300;
+}
+.card.top h4{
+	font-weight: 300;
+}
+.card.top h2{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.panel-left .list i{
+	
+	color: var(--color-rojizo);
+}
+
+.people{
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	
+	
+}
+
+
+.categoria-enlace .block-title{
+	font-weight: 600;
+}
+.categoria-enlace a{
+	font-size: 14px;
+}
+.categoria-enlace .material-icons{
+	font-size: 16px;
+	margin-left: 5px;
+}
+
+
+#home-productos .card{
+	border-radius: 10px;
+	background-color: var(--color-negro);
+	text-align: center;
+	box-shadow: none;
+}
+#home-productos .card-footer{
+	background-color: var(--color-naranja);
+	color: #fff;
+}
+#home-productos .card-content img{
+	width: 150px;
+}
+#home-productos .card-footer a{
+	color: var(--color-blanco);
+}
+
+
+.productos .item-media img{
+	width: 80px;
+}
+.productos .item-title{
+	color: var(--color-negro);
+	font-weight: 600;
+}
+.productos .item-subtitle{
+	color: var(--color-negro);
+	font-weight: 400;
+}
+.productos .item-text{
+	font-size: 12px;
+}
+.productos .item-after{
+	font-size: 14px;
+	color: var(--color-negro);
+}
+
+
+.tabbar-labels .tab-link-highlight{
+	display: none !important;
+}
+
+
+
+.info-producto{
+	background-color: var(--color-rojo);
+	padding: 20px 0 40px 20px;
+	color: var(--color-amarillo);
+	
+	
+}
+
+.ingre-producto img{
+	width: 200px;
+	transform: translateY(-5%);
+	margin-left: -50px;
+	margin-top: -100%;
+}
+
+.ingre-producto {
+	color:var(--color-amarillo);
+}
+
+
+.precio-info{
+	text-align: center;
+	padding-top: 5px;
+}
+.precio-info span{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+}
+
+
+.bg-menu{
+	background-color: var(--color-naranja);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.list-menu i{
+	color: var(--color-naranja);
+}
+.list-menu{
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.panel.panel-left{
+	background-color: #fafafa;
+}
+.panel-left .list-menu ul{
+	background-color: transparent !important;
+}
+
+.popup-registro{
+	z-index: 999999 !important;
+}
+
+.button-fill{
+	
+	background-color: var(--color-rojo-claro);
+	color: var(--color-blanco);
+}
+
+.toolbar-inner{
+	
+	font-size: 12px
+}
+
+.peoplegym{
+	
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+}
+
+.ca .card-content {
+	background-color: var(--fondo-blanco);
+	text-align: center;
+	overflow: initial;
+	color: var(--color-negro);
+	
+}
+
+
+.ca .card-content {
+	background-color: var(--fondo-naranja);
+	color: var(--color-negro);
+	
+}
+
+.ca .card-footer a {
+	color: var(--color-blanco);	
+	
+}
+
+.ca h3 {
+	font-size: 15px;
+	font-weight: 400;
+	
+}
+
+.card-ay h4 {
+	font-size: 10px;
+	font-weight: 300;
+	
+}
+
+.ca .card-footer {
+	background-color: var(--color-naranja);
+	color: var(--color-blanco);
+	
+}
+
+#username,
+#password{
+	background-color: var(--color-blanco);
+	color: var(--color-negro);
+	
+}
+
+.login-screen-title{
+	color: var(--color-blanco);
+}
+
+.pfalogin{
+	width: 200px;
+	padding-left: 25%
+	
+}
+
+#login .block-footer{
+	color: var(--color-blanco);
+	
+}

@@ -38,12 +38,12 @@ h1,h2,h3,h4,h5 {
 
 h1{
 	
-	font-size: 15px;
+	font-size: 12px;
 }
 
 h2{
 	
-	font-size: 13px;
+	font-size: 10px;
 }
 
 h3{
@@ -53,22 +53,22 @@ h3{
 
 h4{
 	
-	font-size: 9px;
+	font-size: 7px;
 }
 
 h5{
 	
-	font-size: 8px;
+	font-size: 6px;
 }
 
 h6{
 	
-	font-size: 7px;
+	font-size: 4px;
 }
 
 h7{
 	
-	font-size: 12px;
+	font-size: 8px;
 }
 
 
@@ -84,7 +84,7 @@ h7{
 }
 
 .intro h2 {
-	font-size: 10px;
+	font-size: 9px;
 	font-weight: 300;
 	
 }
@@ -95,13 +95,13 @@ h7{
 }
 
 .intro h3 {
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 500;
 	
 }
 
 .block-title {
-	font-size: 17px;
+	font-size: 12px;
 	color: var(--color-naranja);
 	font-weight: 500;
 	overflow: initial;
@@ -125,7 +125,7 @@ h7{
 
 .card-intro span .material-icons {
 	margin-right: 5px;
-	font-size: 10px;
+	font-size: 8px;
 	
 }
 
@@ -139,7 +139,7 @@ h7{
 .card-intro h3 {
 	color: var(--color-blanco);
 	margin-bottom: 40px;
-	font-size: 15px;	
+	font-size: 10px;	
 	
 	}
 
@@ -174,7 +174,7 @@ h7{
 }
 
 .card-popular h3 {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 400;
 	
 }
@@ -227,7 +227,7 @@ h7{
 
 .card-intro-entrenamientos span .material-icons {
 	margin-right: 5px;
-	font-size: 10px;
+	font-size: 8px;
 	
 }
 
@@ -240,7 +240,7 @@ h7{
 .card-intro-entrenamientos h3 {
 	color: var(--color-blanco);
 	margin-bottom: 40px;
-	font-size: 16px;
+	font-size: 13px;
 	
 	}
 
@@ -262,7 +262,7 @@ h7{
 	color: var(--color-negro);
 	font-weight: 800;
 	margin-bottom: 40px;
-	font-size: 15px;
+	font-size: 11px;
 	
 }
 
@@ -323,14 +323,14 @@ h7{
 
 .list-productos .item-title{
 	color: var(--color-negro);
-	font-size: 13px;
+	font-size: 9px;
 	font-weight: 300;
 	
 }
 
 .list-productos .item-subtitle{
 	color: var(--color-negro);
-	font-size: 22px;
+	font-size: 15px;
 	font-weight: 400;
 	
 }
@@ -359,7 +359,7 @@ h7{
 	font-weight: 300;
 }
 .card.top h2{
-	font-size: 14px;
+	font-size: 10px;
 	margin-bottom: 20px;
 }
 
@@ -381,10 +381,10 @@ h7{
 	font-weight: 600;
 }
 .categoria-enlace a{
-	font-size: 14px;
+	font-size: 11px;
 }
 .categoria-enlace .material-icons{
-	font-size: 16px;
+	font-size: 13px;
 	margin-left: 5px;
 }
 
@@ -419,10 +419,10 @@ h7{
 	font-weight: 400;
 }
 .productos .item-text{
-	font-size: 12px;
+	font-size: 10px;
 }
 .productos .item-after{
-	font-size: 14px;
+	font-size: 11px;
 	color: var(--color-negro);
 }
 
@@ -459,7 +459,7 @@ h7{
 }
 .precio-info span{
 	color: var(--color-negro);
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 600;
 }
 
@@ -474,7 +474,7 @@ h7{
 	color: var(--color-naranja);
 }
 .list-menu{
-	font-size: 14px;
+	font-size: 11px;
 	margin-top: 0;
 }
 
@@ -497,7 +497,7 @@ h7{
 
 .toolbar-inner{
 	
-	font-size: 12px
+	font-size: 8px
 }
 
 .peoplegym{
@@ -528,13 +528,13 @@ h7{
 }
 
 .ca h3 {
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 400;
 	
 }
 
 .card-ay h4 {
-	font-size: 10px;
+	font-size: 8px;
 	font-weight: 300;
 	
 }

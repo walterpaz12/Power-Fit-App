@@ -1,0 +1,569 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>POWER FIT - Aplicación</title>
+<link href ="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
+
+
+</head>
+
+<body>
+	
+	
+	<!-- App root element -->
+    <div id="app">
+
+     <!-- Your main view, should have "view-main" class -->
+            <section class="view view-main view-init">
+		  
+		    <section class="panel panel-left panel-cover">
+        	<div class="panel-top">
+        	Menú de Navegación en Power Fit
+        	</div>
+        	
+        	<div class="list">
+        	<ul>
+					
+        	<li>
+			 <a href="/inicio/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">home</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Inicio</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/au/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">favorite</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Sobre Nosotros</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/planes/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">military_tech</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Planes</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/nutri/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">restaurant</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Nutricionistas</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/t/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">medical_services</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Fisioterapeutas</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/ep/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">fitness_center</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Entrenadores Personales</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/alim/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">rice_bowl</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Alimentos</h4>
+			</div>
+			 </a>
+			</li>
+				
+			<li>
+			 <a href="/ent/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">run_circle</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Entrenamientos</h4>
+			</div>
+			 </a>
+			</li>
+				
+					
+       		<li>
+			 <a href="/ayuda/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">contact_support</i>
+			</div>
+			 <div class="item-inner">
+			 <h4 class="item-title">Ayuda</h4>
+			</div>
+			 </a>
+		    </li>
+					
+			<li>
+		    <a href="/perfil/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">account_circle</i>
+			</div>
+			 <div class="item-inner">
+		     <h4 class="item-title">Perfil</h4>
+			</div>
+			 </a>
+			</li>
+					
+			<li>
+		    <a href="/orden/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">book</i>
+			</div>
+			<div class="item-inner">
+		    <h4 class="item-title">Mis Órdenes</h4>
+			</div>
+			</a>
+			</li>
+					
+			<li>
+			<a href="#" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">settings</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Configuración</h4>
+			</div>
+			 </a>
+			</li>
+					
+			<li>
+		    <a href="/pagos/" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">account_balance_wallet</i>
+			</div>
+			<div class="item-inner">
+			<h4 class="item-title">Pagos</h4>
+			</div>
+		    </a>
+			</li>
+							
+			<li>
+			<a href="#" class="item-link item-content">
+			<div class="item-media">
+			<i class="material-icons">sensor_door</i>
+		    </div>
+			<div class="item-inner">
+			<h4 class="item-title">Salir</h4>
+			</div>
+			</a>
+			</li>
+					
+        	</ul>
+        	</div>
+        </section>
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+              <nav class="navbar">
+              <div class="navbar-bg"></div>
+              <div class="navbar-inner">
+			  <div class="left"></div>
+              <div class="title text-align-center" >Power Fit</div>
+			  <div class="right">
+			  <a href="/inicio/" class="link panel-open" data-panel="left" ><i class="material-icons">menu</i></a>
+			  </div>
+              </div>
+			  </nav>
+
+          <!-- Scrollable page content -->
+                <section class="page-content">
+                <div class="block text-align-center">
+				<a href="/home/"><img src="img/isologotipo_power_fit_Mesa de trabajo 1.png"  alt="pf" class="img-fluid" width="120px"></a>
+            	<h2>Hola, <span>José Fernando</span></h2>
+			  	<h3>¿Qué desea hacer el día de hoy?</h3>
+				</div>
+         
+			
+		        <div class="block text-align-center"> 
+			    <article class="card card-intro">
+			    <div class="card-content card-content-padding">
+				<div class="row">
+						
+				<article class="col-40">
+				<a href="/ep/">
+				<img src="img/Web-Headshot-02-300x300.png" alt="ab" class="people">
+				</a>
+				</article>
+					
+				<article class="col-60">
+				<a href="/ep/">
+				<span class="material-icons">star_rate</span>
+				<h5>Power Fit del Día</h5>
+			    <h5>4.7/5.0</h5>
+				<h4 class="text-align-center">Especialista en Educación Deportiva con diez años de experiencia graduado de la Universidad de Pachuca.</h4>
+				<h3>Lic. Alejandro Barletta</h3>
+				<span class="precio">L 173.00 p/s</span>
+				<a id="btnComprar" class="button button-fill button-round">+ Agendar su cita hoy</a>
+				</a>
+				</article>
+					
+				 </div>
+					
+				
+				
+				 </div>
+			     </article>
+			     </div>
+					
+				
+		        <div class="block text-align-center"> 
+			    <article class="card card-intro">
+			    <div class="card-content card-content-padding">
+				<div class="row">
+				<article class="col-60">
+				<a href="/nutri/">
+				<span class="material-icons">star_rate</span>
+				<h5>Power Fit del Día</h5>
+			    <h5>4.5/5.0</h5>
+				<h4 class="text-align-center">Nutricionista y Entrenador Personal licenciado  de UNAM en México con dos años de experiencia.</h4>
+				<h3>Dr. Ricardo Barletta</h3>
+				<span class="precio">L 105.00 p/s</span>
+				<a id="btnComprar" class="button button-fill button-round">+ Agendar su cita hoy</a>
+				</a>
+				</article>
+					
+				<article class="col-40">
+				<a href="/nutri/">
+				<img src="img/pngegg (1).png" alt="mm" class="people">
+				</a>
+				</article>
+				 </div>
+					
+				
+				
+				 </div>
+			     </article>
+			     </div>
+					
+				
+		        <div class="block text-align-center"> 
+			    <article class="card card-intro">
+			    <div class="card-content card-content-padding">
+				<div class="row">
+					
+				<article class="col-40">
+				<a href="/t/">
+				<img src="img/ERBheadshot.2e16d0ba.fill-300x300-c100.jpg" alt="sp" class="people">
+				</a>
+				</article>
+					
+				<article class="col-60">
+				<a href="/t/">
+				<span class="material-icons">star_rate</span>
+				<h5>Power Fit del Día</h5>
+			    <h5>4.7/5.0</h5>
+				<h4 class="text-align-center">Especialista en Ortopedia y Terapia Física con diez años de experiencia graduada de la Universidad de Buenos Aires.</h4>
+				<h3>Dra. Sofía Perdomo</h3>
+				<span class="precio">L 173.00 p/s</span>
+				<a id="btnComprar" class="button button-fill button-round">+ Agendar su cita hoy</a>
+				</a>
+				</article>
+					
+				 </div>
+					
+				
+				
+				 </div>
+			     </article>
+			     </div>
+			 
+			      <h2 class="block-title">Sobre Nosotros</h2>
+		  <div class="block">
+		  <article class="card card-popular" >
+		  <div class="card-content card-content-padding">
+		  <img src="img/77-512.png" class="img-fluid" alt="heart">
+		  <h3>Sobre Nosotros</h3>
+		  <h4>Conocernos hoy</h4>
+		  </div>
+		 <div class="card-footer">
+		  Ingresar 
+		 <a href="/au/"><span class="material-icons">favorite</span></a>
+		</div>
+	    </article>
+					 
+		<h2 class="block-title">Categorías</h2>
+		<div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-slides-per-view="2">
+    	<div class="swiper-wrapper">
+	    <div class="swiper-slide" >
+			
+		<article class="card card-popular">
+	    <div class="card-content card-content-padding">
+		<img src="img/478-4788114_food-vector-symbol-png-transparent-png.png" class="img-fluid" alt="nutri">
+		<h3>Nutricionistas</h3>
+		<h4>La mejor versión suya con expertos.</h4>
+		</div>
+		<div class="card-footer">
+		Ingresar 
+		<a href="/nutri/"><span class="material-icons">restaurant</span></a>
+		</div>
+			
+		</article>
+		</div>
+			
+		<div class="swiper-slide">
+		<article class="card card-popular">
+		<div class="card-content card-content-padding">
+	    <img src="img/img_491471.png" class="img-fluid" alt="doc">
+		<h3>Fisioterapeutas</h3>
+		<h4>¡Buscar la mejor rehabilitación hoy!</h4>
+		</div>
+		<div class="card-footer">
+		Ingresar
+	    <a href="/t/"><span class="material-icons">medical_services</span></a>
+	    </div>
+		</article>
+		</div>
+			
+		<div class="swiper-slide">
+		<article class="card card-popular">
+		<div class="card-content card-content-padding">
+		<img src="img/6e94695575a2c897135f7cc0b86800eb.png" class="img-fluid" alt="gym">
+		<h3>Entrenadores Personales</h3>
+		<h4>Conoce el éxito con nuestros entrenadores sin miedo a él.</h4>
+		</div>
+		<div class="card-footer">
+        Ingresar
+		<a href="/ep/"><span class="material-icons">fitness_center</span></a>
+	    </div>
+		</article>
+		</div>
+			
+			<div class="swiper-slide">
+		<article class="card card-popular">
+		<div class="card-content card-content-padding">
+	    <img src="img/unnamed.png" class="img-fluid" alt="apple">
+		<h3>Alimentos</h3>
+		<h4>¡Por la mejor nutrición!</h4>
+		</div>
+		<div class="card-footer">
+		Ingresar
+	    <a href="/alim/"><span class="material-icons">rice_bowl</span></a>
+	    </div>
+		</article>
+		</div>
+			
+		<div class="swiper-slide">
+		<article class="card card-popular">
+		<div class="card-content card-content-padding">
+	    <img src="img/18057.png" class="img-fluid" alt="run">
+		<h3>Entrenamientos</h3>
+		<h4>¡Con fuerza a por la victoria!</h4>
+		</div>
+		<div class="card-footer">
+		Ingresar
+	    <a href="/ent/"><span class="material-icons">run_circle</span></a>
+	    </div>
+		</article>
+		</div>
+			
+			
+		</div>
+		</div>
+			
+		</div>
+		</section> <!--CONTENT-->
+			
+			
+
+			
+			
+		</div><!--PAGE-->
+		  
+		  <div class="toolbar tabbar-tabbar-labels toolbar-bottom container">
+    <div class="toolbar-inner">
+      	<a class="link" href="/inicio/"><i class="material-icons">home</i> <span class="tabbar-label">Inicio</span></a>
+		<a class="link" href="/orden/"><i class="material-icons">book</i> <span class="tabbar-label">Orden</span></a>
+      	<a class="link" href="/pagos/"><i class="material-icons">account_balance_wallet</i> <span class="tabbar-label">Pagos</span></a>
+		<a class="link" href="/perfil/"><i class="material-icons">account_circle</i> <span class="tabbar-label">Perfil</span></a>
+    </div>
+  </div>
+			
+		</section><!--VIEW-->
+		
+		<section id="login">
+		<div class="login-screen modal-in modal-login">
+		  <!-- Default view-page layout -->
+		  <div class="view">
+			<div class="page login-screen-page">
+			  <!-- page-content has additional login-screen content -->
+			  <div class="page-content login-screen-content">
+				 <img src="img/isologotipo_power_fit_Mesa de trabajo 1.png" class=" pfalogin container" alt="pfa">
+				<div class="login-screen-title">Power Fit App</div>
+				<!-- Login form -->
+				<form>
+				  <div class="list">
+					<ul>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Usuario</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="username" name="username" placeholder="Usuario">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Contraseña">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnLogin" class="button button-fill">Ingresar</a>
+					  </li>
+					</ul>
+					<div class="block-footer">¿No tienes una cuenta?, <a href="#" class="popup-open" data-popup=".popup-registro">Regístrate</a>.</div>
+				  </div>
+				</form>
+			  </div>
+			</div>
+		  </div>
+		</div>	
+			
+	</section>
+	
+	
+	<section id="registro">
+		<div class="popup popup-registro">
+			<h2 class="block-title">Registro</h2>
+			
+			<div class="block">
+				<form>
+				  <div class="list">
+					<ul>
+				  	<li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Nombre</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="name" name="name" placeholder="Nombre">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Correo electrónico</div>
+						  <div class="item-input-wrap">
+							<input type="email" id="email" name="email" placeholder="Correo electrónico">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Teléfono</div>
+						  <div class="item-input-wrap">
+							<input type="tel" id="phone" name="phone" placeholder="Teléfono">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Usuario</div>
+						  <div class="item-input-wrap">
+							<input type="text" id="username" name="username" placeholder="Usuario">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content item-input">
+						<div class="item-inner">
+						  <div class="item-title item-label">Contraseña</div>
+						  <div class="item-input-wrap">
+							<input type="password" id="password" name="password" placeholder="Contraseña">
+							<span class="input-clear-button"></span>
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="list block">
+					<ul>
+					  <li>
+						<a href="#" id="btnRegistro" class="button button-fill">Regístrarme</a>
+					  </li>
+					</ul>
+					<div class="block-footer">Ya tengo una cuenta, <a href="#" class="popup-close">Cancelar</a>.</div>
+				  </div>
+				</form>
+			</div>
+			
+		</div>
+	</section>
+			
+			
+			
+			
+		</div><!--APP-->
+			
+		  
+		  
+		  
+				 
+				 
+				 
+				 
+				
+				
+				
+		
+			
+			 
+			    
+		
+      
+    
+    <!-- Path to Framework7 Library Bundle JS-->
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+	
+</body>
+</html>
